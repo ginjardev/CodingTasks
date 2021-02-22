@@ -1,15 +1,21 @@
 public class OddNumbers{
 	public static void main(String[] args) {
 
-	int counter = 2;
-	
-	while(counter > 1 && counter < 100) {
-	if (counter % 2 == 1) {
-	System.out.println(counter);
-}
-	counter++; 
+	int counter = 1;
+	int odd = 1;
+
+	while(counter < 100) {
+	odd++;
+
+	if(odd % 2 == 1) {
+		System.out.print(odd);
+		System.out.print(" ");
 }
 
-}
+	counter++;
+} 
+		
+
+	}
 
 }
