@@ -6,9 +6,9 @@ public class DateTest {
 		
 		myDate.setDay(17);
 		myDate.setMonth(02);
-		myDate.setYear(2021);
+		myDate.setYear(2022);
 		
-	System.out.print("The date is " + myDate.displayDate());
+	System.out.print("Bessie's birthday next year is on " + myDate.displayDate());
 
 }
 
