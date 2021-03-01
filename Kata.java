@@ -36,4 +36,19 @@ public class Kata{
 	return false;
 }
 
+	public boolean isPrimeNumber() {
+        Scanner userInput = new Scanner(System.in);
+        System.out.println("Enter number ");
+        int number = userInput.nextInt();
+        if (number == 1){
+            return true;
+        }
+        for (int i = 2; i < number; i++){
+            if (number % i == 0);
+            return false;
+        }
+        return false;
+
+        }
+
 }

@@ -9,6 +9,8 @@ public class KataTest{
 	System.out.println(myKata.calculateGrade(55));
 	
 	System.out.println(myKata.isEven(55));
+	
+	System.out.println(myKata.isPrimeNumber());
 
 }
 
